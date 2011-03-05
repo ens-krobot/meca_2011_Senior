@@ -12,8 +12,8 @@ h_balise = 80.; // Hauteur de la balise
 // Calculs
 h_min = d_balise;
 h_max = d_balise + h_balise;
-theta_min = atan(h_min / D_max);
-theta_max = atan(h_max / D_min);
+theta_min = atan(h_min / D_min);
+theta_max = atan(h_max / D_max);
 theta = (theta_min + theta_max)/2.;
 
 echo("Angle minimal du faisceau sortant");
