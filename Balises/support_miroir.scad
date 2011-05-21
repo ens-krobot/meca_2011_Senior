@@ -26,14 +26,14 @@ h_min = d_balise;
 h_max = d_balise + h_balise;
 theta_min = atan(h_min / D_min);
 theta_max = atan(h_max / D_max);
-theta = (theta_min + theta_max)/2.;
+theta = 43.5;
 
 echo("Angle minimal du faisceau sortant");
 echo(theta_min);
 echo("Angle maximal du faisceau sortant");
 echo(theta_max);
 
-phi = 45. + theta / 2.;
+phi = 43.5;
 echo("Angle du miroir par rapport à l'horizontale");
 echo(phi);
 
